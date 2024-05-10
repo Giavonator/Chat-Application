@@ -20,7 +20,6 @@ body{
 				0 32px 64px -48px rgba(0, 0, 0, 0.5);
 }
 
-
 .form{
 	padding: 25px 30px;
 }
@@ -104,4 +103,27 @@ form .name-details .field:last-child{
 }
 .form .link a:hover{
 	text-decoration: underline;
+}
+
+/* Users Area CSS Code */
+.users{
+	padding: 25px 30px;
+}
+.users header{
+	display: flex;
+	align-items: center;
+	padding-bottom: 20px;
+	justify-content: space-between;
+	border-bottom: 1px solid #e6e6e6;
+}
+.wrapper img{
+	object-fit: cover;
+	border-radius: 50%;
+}
+.users header .content{
+	display: flex;
+}
+.users header .content img{
+	height: 50px;
+	width: 50px;
 }
