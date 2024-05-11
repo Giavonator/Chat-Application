@@ -27,7 +27,7 @@
 					</div>
 				</div>
 				<div class="field input">
-					<label>Email Address TEST</label>
+					<label>Email Address</label>
 					<input type="text" placeholder="Email your email">
 				</div>
 				<div class="field input">
@@ -48,6 +48,7 @@
 	</div>
 
 	<script src="javascript/pass-show-hide.js"></script>
+	<script src="javascript/signup.js"></script>
 
 </body>
 </html>
