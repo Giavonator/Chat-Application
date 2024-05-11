@@ -8,6 +8,8 @@ form.onsubmit = (e)=>{
 }
 
 continueBtn.onclick = ()=>{
+	alert('asdf');
+	console.log("asdfffffff");
 	let xhr = new XMLHttpRequest();
 	xhr.open("POST", "php/signup.php", true);
 	xhr.onload = ()=>{
@@ -15,7 +17,7 @@ continueBtn.onclick = ()=>{
 			if(xhr.status === 200){
 				let data = xhr.response;
 				if(data == "success"){
-					alert("SUCCESS???");
+					alert("SUCCESasdfasdfS???");
 				}else{
 					alert("TESTING");
 					errorText.textContent = data;
