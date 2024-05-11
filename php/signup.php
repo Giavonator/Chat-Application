@@ -20,6 +20,9 @@
 					$img_ext = end($img_explode);
 
 					$extensions = ['png', 'jpeg', 'jpg'];
+					if(in_array($img_ext, $extensions) === true){
+						//LEFT OFF HERE MAN
+					}
 				}else{
 					echo "Please select an image file!";
 				}
