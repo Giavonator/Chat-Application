@@ -1,4 +1,5 @@
 <?php
+	session_start();
 	include_once "config.php";
 	$fname = mysqli_real_escape_string($conn, $_POST['fname']);
 	$lname = mysqli_real_escape_string($conn, $_POST['lname']);
@@ -50,7 +51,6 @@
 		}else{
 			echo "$email - This is not a valid email!";
 		}
-
 	}else{
 		echo "All input fields are required!";
 	}
