@@ -1,2 +1,2 @@
 # Chat-Application
- Chat Application using PHP with MySQL & JavaScript.
+ Chat Application using PHP, AJAX, mySQL, JavaScript to practice full-stack development.
