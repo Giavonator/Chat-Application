@@ -1,2 +1,2 @@
 # Chat-Application
- Chat Application using PHP, AJAX, mySQL, JavaScript to practice full-stack development.
+ Full stack messaging Application using PHP, AJAX, mySQL, JavaScript, and hosted locally using XAMPS.
